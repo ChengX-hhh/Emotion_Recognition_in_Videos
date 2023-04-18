@@ -1,0 +1,1 @@
+python  facenet/src/align/align_dataset_mtcnn.py   facenet/datasets/movie/raw  facenet/datasets/movie/mtcnn --image_size 160 --margin 32 --random_order
