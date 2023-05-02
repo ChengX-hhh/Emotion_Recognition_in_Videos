@@ -92,3 +92,22 @@ python  facenet/src/align/align_dataset_mtcnn.py   facenet/datasets/movie/raw  f
 2.可采用无监督的聚类方法，基于物体的出现频率探索共有几个主要场景。
 
 3.也可基于经验，总结场景对应的物体识别条件，并基于总结的规则判断场景。
+
+
+
+# Interactive Website
+
+参考的模板：https://dash.gallery/dash-food-footprint/
+
+模板源码：https://github.com/InesRoque3/GroupV_project2
+
+dashR的安装
+
+```R
+install.packages(c("fiery", "routr", "reqres", "htmltools", "base64enc", "plotly", "mime", "crayon", "devtools"))
+
+# installs dash, which includes dashHtmlComponents, dashCoreComponents, and dashTable
+# and will update the component libraries when a new package is released
+devtools::install_github("plotly/dashR", ref="dev", upgrade = TRUE)
+```
+
