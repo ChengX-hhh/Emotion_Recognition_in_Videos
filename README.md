@@ -82,3 +82,13 @@ python  facenet/src/align/align_dataset_mtcnn.py   facenet/datasets/movie/raw  f
 - Raju in different contexts as an example: Raju.ipynb
   - Identity and emotion detection are plotted in raw images. (Plot_results)
   - Save results in each frame as a csv file. (Data_results)
+
+
+
+# Context Recognition
+
+1.随机挑选图片，用yolov8n做场景中的物体识别。
+
+2.可采用无监督的聚类方法，基于物体的出现频率探索共有几个主要场景。
+
+3.也可基于经验，总结场景对应的物体识别条件，并基于总结的规则判断场景。
